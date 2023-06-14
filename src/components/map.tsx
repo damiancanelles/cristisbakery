@@ -42,7 +42,7 @@ export default function GoogleMapC({width, height}) {
           onLoad={onLoad}
           onUnmount={onUnmount}
         >
-          <Marker position={center} title="Cristi's Bakery"/>
+          <Marker position={center} title="Cristis Bakery"/>
         </GoogleMap>
     ) : <></>
   }
