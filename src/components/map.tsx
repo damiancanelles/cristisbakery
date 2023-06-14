@@ -2,9 +2,6 @@
 
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 import React from 'react';
-
-const apiKey = process.env.GOOGLE_API_KEY;
-
 const center = {
     lat: 33.906725,
     lng: -84.599597
@@ -18,7 +15,7 @@ export default function GoogleMapC({width, height}) {
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: apiKey
+        googleMapsApiKey: process.env.GOOGLE_API_KEY
       })
     
       const [map, setMap] = React.useState(null)
