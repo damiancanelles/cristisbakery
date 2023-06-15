@@ -13,7 +13,7 @@ export default function Contact() {
             </div>
             <div className="">
                 <div className="text-xl text-black p-5">
-                    We work on 281 Leeds Lane SW Marietta Georgia 30008
+                    We work on Marietta Georgia 30008
                     <br></br>
                     You can call us to this phone number: 678 651 9484
                     <br></br>

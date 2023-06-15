@@ -35,11 +35,10 @@ export default function GoogleMapC({width, height}) {
         <GoogleMap
           mapContainerStyle={containerStyle}
           center={center}
-          zoom={15}
+          zoom={12}
           onLoad={onLoad}
           onUnmount={onUnmount}
         >
-          <Marker position={center} title="Cristis Bakery"/>
         </GoogleMap>
     ) : <></>
   }
